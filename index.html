@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <form>
+      <label for="firstNumber">
+        <span>Number 1:</span>
+        <input id="firstNumber" type="number" />
+      </label>
+      <hr />
+      <label for="secondNumber">
+        <span>Number 2:</span>
+        <input id="secondNumber" type="number" />
+      </label>
+      <hr />
+      <label>
+        <label>Operator:</label>
+        <select id="operator">
+          <option>+</option>
+          <option>-</option>
+          <option>*</option>
+          <option>/</option>
+          <option>tacos</option>
+        </select>
+      </label>
+      <hr />
+      <input id="calculate" type="submit" value="=">
+      <hr />
+      <div id="result"></div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
